@@ -32,7 +32,7 @@ import java.util.*;
  */
 public class BrailleCell {
 
-	boolean[] listOfPins = new boolean[8];
+	private boolean[] listOfPins = new boolean[8];
 	private static HashMap<Character, String> alphabet = new HashMap<Character, String>();
 
 	/**
